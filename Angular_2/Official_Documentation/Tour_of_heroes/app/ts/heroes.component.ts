@@ -8,8 +8,8 @@ import { HeroService } from "./hero.service";
 {
 	moduleId: module.id,
 	selector: "my-heroes",
-	templateUrl: "heroes.component.html",
-	styleUrls: [ "heroes.component.css" ]
+	templateUrl: "../templates/heroes.component.html",
+	styleUrls: [ "../css/heroes.component.css" ]
 } )
 
 export class HeroesComponent implements OnInit
